@@ -1,0 +1,2 @@
+files = ['font', '1.png', '10.jpg', '11.gif', '2.jpg', '3.png', 'table.xslx', 'spec.docx']
+print(list(filter(lambda x: x.find('jpg') != -1 or x.find('png') != -1, files)))        # -1은 jpg, png가 없을 때 반환하는 값
